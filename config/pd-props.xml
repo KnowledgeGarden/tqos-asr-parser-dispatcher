@@ -12,14 +12,16 @@
 <properties>
 
 	<parameter name="VocabServerURl" value="localhost" /> <!--  coordinate with VocabServer -->
-
+	
+	<!-- "T" means rewind kafka -->
+	<parameter name="ConsumerRewind" value="F" /> 
 	
 
 	<list name="Parsers">
 		<parameter name="LinkGrammar" value="org.topicquests.os.asr.driver.LGDriverEnvironment" /> 
-		<parameter name="LinkGrammar" value="org.topicquests.os.asr.driver.EDriverEnvironment" /> 
-		<parameter name="LinkGrammar" value="org.topicquests.os.asr.driver.sp.SpacyDriverEnvironment" /> 
-		<parameter name="LinkGrammar" value="org.topicquests.os.asr.driver.InDriverEnvironment" /> 
+		<parameter name="Eidos" value="org.topicquests.os.asr.driver.EDriverEnvironment" /> 
+		<parameter name="Spacy" value="org.topicquests.os.asr.driver.sp.SpacyDriverEnvironment" /> 
+		<parameter name="Indra" value="org.topicquests.os.asr.driver.InDriverEnvironment" /> 
 	</list>
 
 	
