@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+<!-- 
+	
+-->
+
+<properties>
+
+	<parameter name="ReachHost" value="192.168.8.12" /> <!-- CHANGE ME -->
+	<parameter name="ReachPort" value="9000" /> 
+
+	
+</properties>
+

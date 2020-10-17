@@ -199,6 +199,31 @@
 			<version>0.4.0-SNAPSHOT</version>
 		</dependency>
 
+    			<dependency>
+    				<groupId>org.topicquests</groupId>
+    				<artifactId>tqos-asr-linkgrammar-driver</artifactId>
+    				<version>0.1.0-SNAPSHOT</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>org.topicquests</groupId>
+    				<artifactId>tqos-asr-eidos-driver</artifactId>
+    				<version>0.1.0-SNAPSHOT</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>org.topicquests</groupId>
+    				<artifactId>tqos-asr-spacy-driver</artifactId>
+    				<version>0.1.0-SNAPSHOT</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>org.topicquests</groupId>
+    				<artifactId>tqos-asr-indra-driver</artifactId>
+    				<version>0.1.0-SNAPSHOT</version>
+    			</dependency>
+    			<dependency>
+    				<groupId>org.topicquests</groupId>
+    				<artifactId>tqks-kafka-support</artifactId>
+    				<version>0.5.0-SNAPSHOT</version>
+    			</dependency>
     </dependencies>
     <url>https://github.com/KnowledgeGarden/tqos-asr-parser-dispatcher</url>
 </project>
